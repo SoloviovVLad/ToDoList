@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Users</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <script src="js/script.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="mainer">
+            <div class="logo">Users</div>
+        </div>
+    </header>
+
+    <div class="mainer">
+        <div class="user-list" id="list"></div>
+    </div>
+
+    <div class="modal hidden" id="modal">
+        <div class="body">
+
+            <button class="btn close" onclick="modalClose()">x</button>
+            <div class="info" id="info">
+                <div class="line"><strong>dsfdsf:</strong> safsdfsdf</div>
+                <div class="line"><strong>dsfdsf:</strong> safsdfsdf</div>
+                <div class="line"><strong>dsfdsf:</strong> safsdfsdf</div>
+                <div class="line"><strong>dsfdsf:</strong> safsdfsdf</div>
+            </div>
+
+            <button class="btn" id="button-load-post">Show posts</button>
+            <div class="loader" id="loader"></div>
+
+            <div class="post-list" id="post-list"></div>
+        </div>
+    </div>
+</body>
+
+</html>
